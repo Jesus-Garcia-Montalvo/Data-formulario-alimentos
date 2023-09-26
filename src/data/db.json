@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "nombre": "lechera",
+      "precio": 25000,
+      "categorias": "leche",
+      "descripcion": "Leche descremada con vitaminas y calcio.",
+      "marca": "Alqueria",
+      "fecha de vencimiento": "01/01/2023"
+    },
+    {
+      "nombre": "panperma",
+      "precio": 28000,
+      "categorias": "pan",
+      "descripcion": "Pan integral recién horneado, ideal para el desayuno.",
+      "marca": "D1",
+      "fecha de vencimiento": "01/01/2024"
+    },
+    {
+      "nombre": "suavecito",
+      "precio": 30000,
+      "categorias": "queso",
+      "descripcion": "Queso suave y cremoso, perfecto para tus recetas favoritas.",
+      "marca": "Alpina",
+      "fecha de vencimiento": "01/01/2025"
+    },
+    {
+      "nombre": "arepan",
+      "precio": 22000,
+      "categorias": "harina",
+      "descripcion": "Harina de maíz precocida para hacer arepas deliciosas.",
+      "marca": "Éxito",
+      "fecha de vencimiento": "01/01/2026"
+    },
+    {
+      "nombre": "quesito",
+      "precio": 27000,
+      "categorias": "queso",
+      "descripcion": "Queso fresco y sabroso, ideal para acompañar tus platos.",
+      "marca": "Alqueria",
+      "fecha de vencimiento": "01/01/2027"
+    }
+  ]
+}
