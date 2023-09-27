@@ -1,0 +1,58 @@
+***--MiniBackend con json server---****
+
+
+1.Crear carpeta 
+
+2.npm init -y 
+
+2.npm install json-server  
+
+4.crear carpetas y archivos 
+
+src
+  Data
+      -db.json
+  -index.js  
+
+5.dentro de index.js copiamos el siguiente archivo de configuracion 
+
+---------------index.js------------------------
+
+const jsonServer = require("json-server"); //llamar a la dependencia que instalmos json server
+const server = jsonServer.create(); //creamos el servido
+const router = jsonServer.router(`${__dirname}/data/db.json`); //ruta del el archivo donde esta la data
+const middlewares = jsonServer.defaults();
+
+const port = process.env.PORT || 3000; //definimos el puerto
+
+server.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "*");
+  res.header("Access-Control-Allow-Methods", "*");
+  next();
+}); //habilitamos la penticion
+
+server.use(router);
+server.use(middlewares);
+
+server.listen(port, () => {
+  console.log("JSON Server is running");
+});
+
+------------------------------------------------
+
+6.expecificar la ruta en el package.json por ejemplo  main:"src/index.js"
+
+7.agregamos la base de datos en el json server 
+
+8.verificar si esta corriendo con node src/index.js
+
+9.habilitar el scripts start en el package.json ejemplo "start": " node src/index.js"
+
+10.una vez terminado con la configuracion subir el repositorio al gighub
+
+
+
+
+
+  

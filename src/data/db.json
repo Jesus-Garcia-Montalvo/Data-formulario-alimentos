@@ -1,6 +1,7 @@
 {
   "productos": [
     {
+      "id": 1,
       "nombre": "lechera",
       "precio": 25000,
       "categorias": "leche",
@@ -9,6 +10,7 @@
       "fecha de vencimiento": "01/01/2023"
     },
     {
+      "id": 2,
       "nombre": "panperma",
       "precio": 28000,
       "categorias": "pan",
@@ -17,6 +19,7 @@
       "fecha de vencimiento": "01/01/2024"
     },
     {
+      "id": 3,
       "nombre": "suavecito",
       "precio": 30000,
       "categorias": "queso",
@@ -25,6 +28,7 @@
       "fecha de vencimiento": "01/01/2025"
     },
     {
+      "id": 4,
       "nombre": "arepan",
       "precio": 22000,
       "categorias": "harina",
@@ -33,6 +37,7 @@
       "fecha de vencimiento": "01/01/2026"
     },
     {
+      "id": 5,
       "nombre": "quesito",
       "precio": 27000,
       "categorias": "queso",
